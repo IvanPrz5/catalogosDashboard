@@ -20,7 +20,7 @@ import lombok.Setter;
 public class c_TipoDeComprobante {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Tipo_Comprobante;
+    private String id;
     @Column
     private String descripcion;
     @Column

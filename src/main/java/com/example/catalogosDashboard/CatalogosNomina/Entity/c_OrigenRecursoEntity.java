@@ -20,9 +20,9 @@ import lombok.Setter;
 public class c_OrigenRecursoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer cod;
     @Column
-    private String origenRecurso;
+    private String id;
     @Column
     private String descripcion;
     @Column

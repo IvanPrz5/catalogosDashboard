@@ -20,7 +20,7 @@ import lombok.Setter;
 public class c_TipoRelacion {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Tipo_Relacion;
+    private String id;
     @Column
     private String descripcion;
     @Column

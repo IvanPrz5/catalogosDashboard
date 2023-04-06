@@ -25,16 +25,16 @@ import lombok.Setter;
 public class c_Localidad {
     @Id
     // @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id_Localidad;
+    private String cod;
     @Column
-    private String c_Localidad;
+    private String id;
     @Column
     private String descripcion;
     @Column
     private Boolean status;
 
     @ManyToOne
-    @JoinColumn(name="c_Estado")
+    @JoinColumn(name="idEstado")
     private c_Estado estado;
 
     /* @OneToMany(mappedBy = "cCodigoPostal")

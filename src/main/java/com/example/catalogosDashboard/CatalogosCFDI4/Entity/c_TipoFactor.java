@@ -20,7 +20,7 @@ import lombok.Setter;
 public class c_TipoFactor {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Tipo_Factor;
+    private String id;
     @Column
     private Boolean status;
 }

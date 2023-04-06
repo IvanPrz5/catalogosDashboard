@@ -20,7 +20,7 @@ import lombok.Setter;
 public class c_RegimenFiscal {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Regimen_Fiscal;
+    private String id;
     @Column
     private String descripcion;
     @Column

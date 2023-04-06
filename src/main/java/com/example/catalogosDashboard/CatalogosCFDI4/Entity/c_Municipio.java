@@ -22,16 +22,16 @@ import lombok.Setter;
 public class c_Municipio {
     @Id
     // @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id_Municipio;
+    private String cod;
     @Column
-    private String c_Municipio;
+    private String id;
     @Column
     private String descripcion;
     @Column
     private Boolean status;
 
     @ManyToOne
-    @JoinColumn(name="c_Estado")
+    @JoinColumn(name="idEstado")
     private c_Estado estado;
 
     /* @OneToMany(mappedBy = "cCodigoPostal")

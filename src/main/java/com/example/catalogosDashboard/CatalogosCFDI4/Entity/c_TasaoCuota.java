@@ -20,7 +20,7 @@ import lombok.Setter;
 public class c_TasaoCuota {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer c_Tasa_Cuota;
+    private Integer id;
     @Column
     private String rangoFijo;
     @Column
@@ -39,3 +39,4 @@ public class c_TasaoCuota {
     private Boolean status;
 }
    
+

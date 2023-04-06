@@ -18,7 +18,7 @@ import lombok.Setter;
 public class c_Aduana {
     @Id
     //@GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Aduana;
+    private String id;
     @Column
     private String descripcion;
     @Column

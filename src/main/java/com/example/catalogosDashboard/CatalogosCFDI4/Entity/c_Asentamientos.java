@@ -20,9 +20,9 @@ import lombok.Setter;
 public class c_Asentamientos {
     @Id
     //@GeneratedValue(strategy = GenerationType.AUTO)
-    private String id_Asentamiento;
+    private String cod;
     @Column
-    private String c_Asentamiento;
+    private String id;
     @Column
     private String nombre;
     @Column
@@ -31,6 +31,6 @@ public class c_Asentamientos {
     private Boolean status;
     
     @ManyToOne
-    @JoinColumn(name="c_Codigo_Postal")
+    @JoinColumn(name="idCodigoPostal")
     private c_CodigoPostal codigoPostal;
 }

@@ -19,7 +19,7 @@ import lombok.Setter;
 @Table(name="c_Metodo_Pago")
 public class c_MetodoPago {
     @Id
-    private String c_Metodo_Pago;
+    private String id;
     @Column
     private String descripcion;
     @Column

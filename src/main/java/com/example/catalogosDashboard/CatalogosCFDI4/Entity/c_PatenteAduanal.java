@@ -18,7 +18,7 @@ import lombok.Setter;
 public class c_PatenteAduanal {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Patente_Aduanal;
+    private String id;
     @Column
     private Boolean status;
 }

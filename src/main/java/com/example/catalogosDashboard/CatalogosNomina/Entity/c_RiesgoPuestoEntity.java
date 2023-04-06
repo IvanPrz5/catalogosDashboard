@@ -19,7 +19,7 @@ import lombok.Setter;
 public class c_RiesgoPuestoEntity {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer c_RiesgoPuesto;
+    private Integer id;
     @Column
     private String descripcion;
     @Column

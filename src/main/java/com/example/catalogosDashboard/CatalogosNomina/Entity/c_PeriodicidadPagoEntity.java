@@ -20,7 +20,7 @@ import lombok.Setter;
 public class c_PeriodicidadPagoEntity {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Periodicidad_Pago;
+    private String id;
     @Column
     private String descripcion;
     @Column

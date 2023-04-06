@@ -24,14 +24,14 @@ import lombok.Setter;
 public class c_Estado {
     @Id
     // @GeneratedValue(strategy = GenerationType.AUTO)
-    private String c_Estado;
+    private String id;
     @Column
     private String nombreEstado;
     @Column
     private Boolean status;
     
     @ManyToOne
-    @JoinColumn(name="c_Pais")
+    @JoinColumn(name="idPais")
     private c_Pais pais;
 
     /* @OneToMany(mappedBy = "cLocalidad")
